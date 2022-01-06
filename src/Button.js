@@ -7,17 +7,20 @@ const SIZES = {
   small: {
     padding: `6px 14px`,
     fontSize: 16 / 16 + "rem",
-    lineHeight: "19px"
+    lineHeight: "19px",
+    borderRadius: "2px"
   },
   medium: {
     padding: `14px 22px`,
     fontSize: 18 / 16 + "rem",
-    lineHeight: "21px"
+    lineHeight: "21px",
+    borderRadius: "2px"
   },
   large: {
     padding: `18px 34px`,
     fontSize: 21 / 16 + "rem",
-    lineHeight: "25px"
+    lineHeight: "25px",
+    borderRadius: "4px"
   }
 };
 
@@ -38,8 +41,7 @@ const ButtonBase = styled.button`
   background: ${COLORS.primary};
   color: ${COLORS.white};
   border: 2px solid transparent;
-  border-radius: 4px;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   text-transform: uppercase;
 `;
 
